@@ -1,7 +1,7 @@
 ### Instructions
 
 1. Cloning:
-`git clone https://github.com/Kotletta-TT/this_fun.git && cd $_`
+`git clone https://github.com/Kotletta-TT/this_fun.git this_fun && cd $_`
 2. Add script to autostart (this script starts every time you login)
  `chmod -R 755 configure.sh && ./configure.sh`.
  
