@@ -1,7 +1,7 @@
 ### Instructions
 
 1. Clonning:
-`git clone https://github.com/Kotletta-TT/this_fun.git && cd $_`
+`git clone https://github.com/Kotletta-TT/this_fun.git this_fun && cd $_`
 2. Add script to autostart (this script start every time you login)
  `chmod -R 755 configure.sh && ./configure.sh`.
  
@@ -18,7 +18,7 @@
 6. Login `exam` user.
 7. Execute script `/Users/Shared/exam/run_exam.sh`.  
   
-  >This script clone exam folder to `.exam`, and owner user has been `exam`
+  >This script clone exam folder to `.exam`, and its owner will be an exam user.
   
 8. Logout. And standard login again.
   
