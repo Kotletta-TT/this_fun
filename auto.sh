@@ -1,6 +1,6 @@
 #!/bin/bash
 
-EPATH="/Users/Shared"
+EPATH="/Users/Shared/"
 
 if [[ ! -d $EPATH.exam ]]
 then
