@@ -1,10 +1,11 @@
 #!/bin/bash
 
-EPATH="/Users/Shared/"
+export EPATH="/Users/Shared"
+export EX_PATH=$HOME/tmp
+export HOSTNAME=$(hostname -s)
 
-if [[ ! -d $EPATH.exam ]]
-then
-	cp -r ~/exam $EPATH
-else
-	rm -rf $EPATH*
-fi
+rm -rf $EPATH/*
+$EX_PATH/del_exam.sh $HOSTNAME
+cp -r $EX_PATH/exam $EPATH
+$EX_PATH/run_exam.sh $HOSTNAME
+rm -rf $EPATH/*
